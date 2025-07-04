@@ -189,7 +189,6 @@ def form_layouts_horizontal():
     return render_template('sneat/html/form-layouts-horizontal.html')
 
 # Tables Routing
-
 @app.route('/tables-basic')
 def table_basic():
     return render_template('sneat/html/tables-basic.html')
